@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 0;
+    margin: auto;
+}
+
+header {
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+h1 {
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+nav {
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.logo img {
+    display: flex;
+}
+  
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.nav-item {
+    margin-left: 2rem;
+}
+  
+.nav-link {
+    font-weight: var(--bold-font);
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+  
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+  
+.product-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 50px; /* Atur tinggi maksimum sesuai keinginan Anda */
+    margin-bottom: 10px;
+}
+  
+.product:hover {
+    transform: scale(1.05);
+}
+  
+.carousel-container {
+    position: relative;
+    max-width: 800px; /* Sesuaikan lebar carousel sesuai kebutuhan */
+    margin: 0 auto;
+    overflow: hidden;
+}
+  
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.carousel-slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+  
+.carousel img {
+    width: 80%;
+    height: auto;
+}
+  
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.about {
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+}
+  
+.about h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
+.about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+  
+.contact {
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+}
+  
+.contact h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+  
+.fab.fa-instagram {
+    /* Atur gaya untuk ikon Instagram */
+    font-size: 12px; /* Ukuran ikon */
+    color: #fff; /* Warna ikon (sangat mirip dengan warna Instagram) */
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+}
+  
+.fab.fa-instagram::after {
+    /* Atur teks */
+    font-size: 12px; /* Ukuran teks */
+    color: #fff; /* Warna teks */
+}
+
+.fab.fa-github {
+    /* Atur gaya untuk ikon Instagram */
+    font-size: 12px; /* Ukuran ikon */
+    color: #fff; /* Warna ikon (sangat mirip dengan warna Instagram) */
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+}
+  
+.fab.fa-github::after {
+    /* Atur teks */
+    font-size: 12px; /* Ukuran teks */
+    color: #fff; /* Warna teks */
+}
+
+.fab.fa-whatsapp {
+    /* Atur gaya untuk ikon Instagram */
+    font-size: 12px; /* Ukuran ikon */
+    color: #fff; /* Warna ikon (sangat mirip dengan warna Instagram) */
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+}
+  
+.fab.fa-whatsapp::after {
+/* Atur teks */
+    font-size: 12px; /* Ukuran teks */
+    color: #fff; /* Warna teks */
+}
+
+#prevBtn {
+    left: 10px;
+}
+  
+#nextBtn {
+    right: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+  
+footer p {
+    margin: 0;
+}
