@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    background-color: steelblue;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#product-list {
+    margin: 20px;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    flex-basis: calc(25% - 20px); /* Untuk membuat 4 kolom per baris */
+    text-align: center;
+}
+
+.product-image {
+    max-width: 50%;
+    max-height: 30%;
+    height: auto;    
+}
+
+.product-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #fa0000;
+}
